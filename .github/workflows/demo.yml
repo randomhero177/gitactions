@@ -6,3 +6,7 @@ jobs:
     steps:
       - name: Print to console
         run: echo Hello github actons
+      - name: Print few lines
+        run: |
+          echo fisrt line
+          echo second line
